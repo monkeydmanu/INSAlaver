@@ -1,0 +1,23 @@
+h2 {
+  padding-bottom: 15px;
+  font-size: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+nav {
+  justify-content: space-around;
+}
+
+nav a {
+  /* margin-right: 20px; */
+  padding:5px;
+}

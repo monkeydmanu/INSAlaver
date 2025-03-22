@@ -1,0 +1,2 @@
+// timers.js
+var timers = {};

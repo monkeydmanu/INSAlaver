@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>INSA'LAVER : residence Catheliers</title>
+    <link href="style/Robes.css" rel="stylesheet" \>
+    <link href="style/style.css" rel="stylesheet" \>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/machine_logo.jpg" alt="Logo Insa'laver" class="logo"\>
+            <h1>Insa'laver</h1>
+            <a href="index.html" class="retour">Retour</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Bienvenue aux Catheliers !</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Residence</th>
+                    <th>Disponibilité</th>
+                    <th>Temps</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Machine1</strong><br> Machine à laver</td>
+                    <td><div id="bouton_machine1_catheliers" class="bouton_machine">LIBRE :)</div></td>
+                    <td><button id="bouton_temps_30_catheliers_machine1">30 MINUTES</button>
+                        <button id="bouton_temps_35_catheliers_machine1">35 MINUTES</button>
+                        <button id="bouton_temps_40_catheliers_machine1">40 MINUTES</button>
+
+                        <div id="Afficheur_temps1"></div></td>
+                    <td id="annuler_bouton_catheliers_machine1"><button class="bouton-annuler">Annuler</button></td>
+                </tr>
+                <tr>
+                    <td><strong>Machine2</strong> <br> Machine à laver</td>
+                    <td><div id="bouton_machine2_catheliers" class="bouton_machine">LIBRE :)</div></td>
+                    <td><button id="bouton_temps_30_catheliers_machine2">30 MINUTES</button>
+                        <button id="bouton_temps_35_catheliers_machine2">35 MINUTES</button>
+                        <button id="bouton_temps_40_catheliers_machine2">40 MINUTES</button>
+
+                        <div id="Afficheur_temps2"></div></td>
+                    <td id="annuler_bouton_catheliers_machine2"><button class="bouton-annuler">Annuler</button></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><strong>Machine3</strong><br> Sèche-linge</td>
+                    <td><div id="bouton_machine3_catheliers" class="bouton_machine">LIBRE :)</div></td>
+                    <td><button id="bouton_temps_30_catheliers_machine3">30 MINUTES</button>
+                        <button id="bouton_temps_35_catheliers_machine3">35 MINUTES</button>
+                        <button id="bouton_temps_40_catheliers_machine3">40 MINUTES</button>
+
+                        <div id="Afficheur_temps3"></div></td>
+                    <td id="annuler_bouton_catheliers_machine3"><button class="bouton-annuler">Annuler</button></td>
+                </tr>
+                <tr>
+                    <td><strong>Machine4</strong><br> Sèche-linge</td>
+                    <td><div id="bouton_machine4_catheliers" class="bouton_machine">LIBRE :)</div></td>
+                    <td><button id="bouton_temps_30_catheliers_machine4">30 MINUTES</button>
+                        <button id="bouton_temps_35_catheliers_machine4">35 MINUTES</button>
+                        <button id="bouton_temps_40_catheliers_machine4">40 MINUTES</button>
+
+                        <div id="Afficheur_temps4"></div></td>
+                    <td id="annuler_bouton_catheliers_machine4"><button class="bouton-annuler">Annuler</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+
+    <footer>
+        
+    </footer>
+
+    <script src="timers.js"></script>
+    <script src="Minuteur.js"></script>
+    <script src="Catheliers.js"></script>
+</body>
